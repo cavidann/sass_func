@@ -1,0 +1,19 @@
+mix($color1, $color2, [$weight])	- 2 rengi qarisdirmaq ucun
+lightness($color)			-rengin aciqligini geri verir
+lighten($color, $amount)		-rengin tonunu gosterilen qeder acmaq ucun
+darken($color, $amount)			-rengin tonunu gosterilen qeder tundlesdirmek ucun
+length($list)				-listin uzunlugu
+nth($list, $n)				-listin n-ci itemini qaytarir
+join($list1, $list2, [$separator])	-2 listi 1 listde birlesdirir.
+adjust-hue($color, $degrees)		-renge gosterilen qeder hue deyerini elave etmek ucun 
+tint( $base-color, $percentage )	-renge gosterilen qeder ag reng elave etmek ucun
+shade( $base-color, $percentage )	-renge gosterilen qeder qara reng elave etmek ucun
+percentage($number)			-%-li emeliyyat 
+round($number)				-reqemi normal qayda ile yuvarlaqlasdirir
+ceil($number)				-reqemi ust reqeme yuvarlaqlasdirir.
+floor($number)				-reqemi alt reqeme yuvarlaqlasdirir.
+abs($number)				-musbet eded 
+min($numbers…)				-minimumu tapir
+max($numbers…)				-maximumu tapir
+random([$limit])			-random eded qaytarir
+rgba($color, $alpha)			-css rgba kimi. alpha=opacity 

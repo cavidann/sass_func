@@ -1,0 +1,76 @@
+// grid system
+$total: 8;
+
+@function column-width($col) {  
+ @return percentage($col/$total);  
+}
+
+@for $i from 1 through $total {  
+ .col-#{$i} {width: column-width($i);float: left;};  
+
+}
+// //////////////
+
+
+
+// background-color and color definition
+
+
+
+@function text-contrast($backgorund){
+    @if lightness($backgorund)>50%{
+        @return darken($backgorund, 50%);
+    }
+    @else{
+        @return lighten($backgorund, 70%);
+    }
+}
+
+.main{
+    .text1{
+        $background: gray;
+        color: text-contrast($background);
+        background: $background;
+    }
+    .text2{
+        $background: lightgray;
+        color: text-contrast($background);
+        background: $background;
+    }
+    .text3{
+        $background: darkred;
+        color: text-contrast($background);
+        background: $background;
+}
+}
+// //////////////
+ 
+
+
+
+    // tint and shade functions yeniden yazilmisi
+// @function tint($color, $percentage) {
+//   @return mix(white, $color, $percentage);
+// }
+// @function shade($color, $percentage) {
+//   @return mix(black, $color, $percentage);
+// }
+
+
+// .main{
+//     .text1{
+//           color: tint(#BADA55, 30%);
+//           background-color: shade(#663399, 42%);
+//     }
+// }
+
+
+
+
+//////////////////////////////////////
+// @function lightercolor($color){
+//     @return  lighten($color, 15%);
+// }
+// .text1{
+//     background: lightercolor(red);
+// }

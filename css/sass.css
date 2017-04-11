@@ -1,0 +1,43 @@
+.col-1 {
+  width: 12.5%;
+  float: left; }
+
+.col-2 {
+  width: 25%;
+  float: left; }
+
+.col-3 {
+  width: 37.5%;
+  float: left; }
+
+.col-4 {
+  width: 50%;
+  float: left; }
+
+.col-5 {
+  width: 62.5%;
+  float: left; }
+
+.col-6 {
+  width: 75%;
+  float: left; }
+
+.col-7 {
+  width: 87.5%;
+  float: left; }
+
+.col-8 {
+  width: 100%;
+  float: left; }
+
+.main .text1 {
+  color: black;
+  background: gray; }
+.main .text2 {
+  color: #535353;
+  background: lightgray; }
+.main .text3 {
+  color: #fff1f1;
+  background: darkred; }
+
+/*# sourceMappingURL=sass.css.map */
